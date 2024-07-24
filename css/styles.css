@@ -244,3 +244,27 @@ footer p {
 .project-item:hover {
     transform: translateY(-5px);
 }
+
+/* About Me Section Styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#about .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #333;
+}

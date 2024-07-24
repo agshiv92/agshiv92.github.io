@@ -148,7 +148,9 @@ section h2::after {
 
 .experience-item ul {
     margin: 0;
-    padding: 0;
+    padding: 0 20px; /* Add padding for indents */
+    list-style-type: disc; /* Use disc for bullet points */
+    color: #555;
 }
 
 .experience-item ul li {

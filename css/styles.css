@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-    background: url('assets/images/background.jpg') no-repeat center center/cover;
+    background: url('../assets/images/background.jpg') no-repeat center center/cover;
     height: 100vh; /* Full viewport height */
     display: flex;
     align-items: center;
@@ -13,7 +13,6 @@ body {
     text-align: center;
     color: white;
     position: relative;
-    z-index: 1;
 }
 
 .header .container {
@@ -35,7 +34,6 @@ nav {
     background-color: #333;
     overflow: hidden;
     position: relative;
-    z-index: 3; /* Ensure it's above the header overlay */
 }
 
 nav ul {
@@ -70,3 +68,4 @@ nav ul li a:hover {
     border-radius: 5px;
     font-size: 1em;
 }
+
